@@ -24,8 +24,7 @@ function sum2(){
     document.getElementById('sum2').innerHTML='Nice to meet you'+a+b;
 }
 function question(f){
-    return (5/9) * (f-32)
-}
-function question(){
-    document.getElementById("question").innerHTML =  question(20);
+    f = 20;
+    alert((5/9) * (f-32));
+
 }
